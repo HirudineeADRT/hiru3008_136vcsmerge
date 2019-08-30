@@ -75,8 +75,8 @@
       {
         "lambdaId": "all",
         "varKey": "Hasi",
-        "varValue": null,
-        "shouldPersist": false,
+        "varValue": "456",
+        "shouldPersist": true,
         "displayOnly": false,
         "editable": true
       }
@@ -92,7 +92,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567143773757
+    "lastSave": 1567143810735
   },
   "VCS_STATE": {
     "provider": "GitHub",

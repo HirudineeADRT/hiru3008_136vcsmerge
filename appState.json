@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2e5dd92c-1aa4-4c53-b871-b972b06829c8": {
+        "id": "2e5dd92c-1aa4-4c53-b871-b972b06829c8",
+        "parent": null,
+        "name": "hiru3008_136vcsmerge",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f4b3ce76-4f83-41af-9f04-8710166b7281"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru3008_136vcsmerge"
+      },
+      "f4b3ce76-4f83-41af-9f04-8710166b7281": {
+        "id": "f4b3ce76-4f83-41af-9f04-8710166b7281",
+        "parent": "2e5dd92c-1aa4-4c53-b871-b972b06829c8",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3008_136vcsmerge/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "2e5dd92c-1aa4-4c53-b871-b972b06829c8",
+    "openFiles": [
+      "f4b3ce76-4f83-41af-9f04-8710166b7281"
+    ],
+    "currentFileId": "f4b3ce76-4f83-41af-9f04-8710166b7281",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru3008_136vcsmerge",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567140145681
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru3008_136vcsmerge",
+      "url": "https://github.com/HirudineeADRT/hiru3008_136vcsmerge"
+    }
+  }
+}

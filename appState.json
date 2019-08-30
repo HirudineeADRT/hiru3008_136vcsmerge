@@ -44,9 +44,7 @@
         "filePath": "hiru3008_136vcsmerge/kdir"
       }
     },
-    "deletedFiles": [
-      "hiru3008_136vcsmerge/kdir/k.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "2e5dd92c-1aa4-4c53-b871-b972b06829c8",
     "openFiles": [
       "f4b3ce76-4f83-41af-9f04-8710166b7281"
@@ -65,6 +63,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "Kumu",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -78,7 +84,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567140945243
+    "lastSave": 1567141439288
   },
   "VCS_STATE": {
     "provider": "GitHub",
